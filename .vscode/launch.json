@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftHi}",
+            "name": "Debug SwiftHi",
+            "program": "${workspaceFolder:SwiftHi}\\.build\\debug\\SwiftHi.exe",
+            "preLaunchTask": "swift: Build Debug SwiftHi"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftHi}",
+            "name": "Release SwiftHi",
+            "program": "${workspaceFolder:SwiftHi}\\.build\\release\\SwiftHi.exe",
+            "preLaunchTask": "swift: Build Release SwiftHi"
+        }
+    ]
+}
